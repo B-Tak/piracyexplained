@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+    overscroll-behavior: none;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(23, 23, 23);
+    color: white;
+    width: 100%;
+}
+
+nav {
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(23, 23, 23);
+    padding-bottom: 5px;
+
+}
+
+.link {
+    margin: 1px;
+    border-bottom: 3px solid white;
+    color: white;
+}
+
+.link:hover {
+    background-color: white;
+    border-radius: 8%;
+    color: black;
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+main {
+    display: flex;
+    width: 66%;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    background-color: rgb(63, 63, 63);
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+article {
+    border-bottom: 1px white solid;
+}
+.img-container h2 {
+    display: inline-block;
+    width: 70%;
+}
+
+.img-container img {
+    width: 10%;
+    float: right;
+    
+ 
+}
+
+.img-container a {
+    display: flex;
+    color: red;
+    width: 70%;
+    flex-wrap: nowrap;
+}
+
+.aside-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-left: 10px;
+    flex-direction: column;
+    background-color: rgb(60, 60, 60);
+}
+.credit {
+    color: rgb(102, 9, 37);
+}
+
+@media only screen and (max-width: 600px) {
+    .aside-container {
+        visibility: hidden;
+    }
+
+    main {
+        width: 100%;
+        padding-left: 11%;
+    }
+
+    img {
+        visibility: hidden;
+    }
+
+    article {
+        width: 66%
+    }
+}
+
+footer {
+
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(23, 23, 23);
+}
+
+footer p {
+    color: grey;
+}
+
+footer i {
+    font-size: 49px;
+}
