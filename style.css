@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: sans-serif;
     text-decoration: none;
-
+    overscroll-behavior: none;
 }
 
 header {
