@@ -8,7 +8,7 @@
 
 header {
     text-align: center;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(12, 12, 1);
     color: white;
     width: 100%;
 }
@@ -16,7 +16,7 @@ header {
 nav {
     text-align: center;
     font-size: larger;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(12, 12, 1);
     padding-bottom: 5px;
 
 }
@@ -55,6 +55,7 @@ section {
 
 article {
     border-bottom: 1px white solid;
+    padding-bottom: 5px;
 }
 
 .img-container h2 {
@@ -76,7 +77,7 @@ article {
     flex-wrap: nowrap;
 }
 
-.aside-container {
+aside {
     display: flex;
     flex-wrap: wrap;
     width: 20%;
@@ -84,9 +85,16 @@ article {
     flex-direction: column;
     background-color: rgb(60, 60, 60);
 }
+<<<<<<< HEAD
+=======
+.content-aside {
+    padding: 10px;
+}
+>>>>>>> 3817cac (Finished base, opened about me page)
 
 .credit {
-    color: rgb(102, 9, 37);
+    display: block;
+    color: rgb(255, 0, 0);
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,7 +121,7 @@ footer {
     width: 100%;
     text-align: center;
     align-items: center;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(12, 12, 1);
 }
 
 footer p {
