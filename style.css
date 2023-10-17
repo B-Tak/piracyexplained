@@ -76,7 +76,7 @@ p {
     padding-bottom: 6px;
 }
 
-.img-container img {
+img {
     display: flex;
     width: 25%;
 }
