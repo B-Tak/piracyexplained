@@ -64,19 +64,13 @@ section {
 
 article {
     border-bottom: 1px white solid;
+    color: #F1EFEF;
     padding-bottom: 5px;
 }
 
 .img-container h2 {
     display: inline-block;
-    width: 70%;
-}
-
-.img-container img {
-    width: 10%;
-    float: right;
-
-
+    width: 100%;
 }
 
 .img-container a {
@@ -116,7 +110,7 @@ aside {
     }
 
     article {
-        width: 66%
+        width: 100%;
     }
 }
 
