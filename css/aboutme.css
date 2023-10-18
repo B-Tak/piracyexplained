@@ -48,13 +48,31 @@ main {
 }
 
 section {
-    display: flex;
+    display: block;
     justify-content: center;
     background-color: rgb(63, 63, 63);
-    flex-direction: column;
     padding-bottom: 10px;
 }
 
+article {
+    border-bottom: 1px #fff solid;
+    padding-left: 4px;
+    padding-bottom: 5px;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 25px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #f3efe0;
+    background-color: #3c3c3c
+}
+
+aside img {
+    object-fit: fill;
+}
 
 footer {
 
@@ -63,6 +81,26 @@ footer {
     align-items: center;
     background-color: rgb(12, 12, 1);
 }
+
+@media only screen and (max-width:600px) {
+    aside {
+        visibility: hidden
+    }
+
+    main {
+        width: 100%;
+        padding-left: 13%
+    }
+
+    img {
+        visibility: hidden
+    }
+
+    article {
+        width: 98%
+    }
+}
+
 
 footer p {
     color: grey;
