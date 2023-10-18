@@ -1,41 +1,45 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-family: sans-serif;
     text-decoration: none;
-    overscroll-behavior: none;
+    overscroll-behavior: none
 }
 
 header {
     text-align: center;
-    background-color: rgb(12, 12, 1);
-    color: white;
-    width: 100%;
+    background-color: #000;
+    color: #fff;
+    width: 100%
 }
 
 nav {
     text-align: center;
     font-size: larger;
-    background-color: rgb(12, 12, 1);
-    padding-bottom: 5px;
-
+    background-color: #000;
+    padding-bottom: 5px
 }
 
 .link {
     margin: 1px;
-    border-bottom: 3px solid white;
-    color: white;
+    border-bottom: 3px solid #fff;
+    color: #fff
+}
+#selected {
+    background-color: #fff;
+    border-radius: 8%;
+    color: #000
 }
 
 .link:hover {
-    background-color: white;
+    background-color: #fff;
     border-radius: 8%;
-    color: black;
+    color: #000
 }
 
 body {
-    background-color: rgb(32, 32, 32);
-    color: white;
+    background-color: #202020;
+    color: #fff
 }
 
 main {
@@ -44,26 +48,32 @@ main {
     margin-top: 1px;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 section {
-    display: block;
-    justify-content: center;
-    background-color: rgb(63, 63, 63);
-    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f3f3f;
+    padding-bottom: 10px
 }
 
 article {
-    border-bottom: 1px #fff solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
     padding-left: 4px;
-    padding-bottom: 5px;
+    padding-bottom: 5px
+}
+article a {
+    color: #f95959;
 }
 
 aside {
     display: flex;
     flex-wrap: wrap;
-    padding-right: 25px;
     margin-left: 10px;
     flex-direction: column;
     color: #f3efe0;
@@ -71,15 +81,7 @@ aside {
 }
 
 aside img {
-    object-fit: fill;
-}
-
-footer {
-
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(12, 12, 1);
+    object-fit: fill
 }
 
 @media only screen and (max-width:600px) {
@@ -101,11 +103,17 @@ footer {
     }
 }
 
+footer {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: #000
+}
 
 footer p {
-    color: grey;
+    color: grey
 }
 
 footer i {
-    font-size: 49px;
+    font-size: 49px
 }
