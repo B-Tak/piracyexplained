@@ -1,41 +1,40 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     font-family: sans-serif;
     text-decoration: none;
-    overscroll-behavior: none;
+    overscroll-behavior: none
 }
 
 header {
     text-align: center;
-    background-color: rgb(12, 12, 1);
-    color: white;
-    width: 100%;
+    background-color: #0c0c01;
+    color: #fff;
+    width: 100%
 }
 
 nav {
     text-align: center;
     font-size: larger;
-    background-color: rgb(12, 12, 1);
-    padding-bottom: 5px;
-
+    background-color: #0c0c01;
+    padding-bottom: 5px
 }
 
 .link {
     margin: 1px;
-    border-bottom: 3px solid white;
-    color: white;
+    border-bottom: 3px solid #fff;
+    color: #fff
 }
 
 .link:hover {
-    background-color: white;
+    background-color: #fff;
     border-radius: 8%;
-    color: black;
+    color: #000
 }
 
 body {
-    background-color: rgb(32, 32, 32);
-    color: white;
+    background-color: #202020;
+    color: #fff
 }
 
 main {
@@ -43,42 +42,48 @@ main {
     width: 66%;
     margin-top: 1px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
 }
 
 section {
     display: flex;
-    background-color: rgb(63, 63, 63);
+    background-color: #3f3f3f;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 article {
-    border-bottom: 1px white solid;
-    color: #F3EFE0;
-    padding-bottom: 5px;
+    border-bottom: 1px #fff solid;
+    color: #f3efe0;
+    padding-bottom: 5px
+}
+
+article {
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow-wrap: normal;
 }
 
 .img-container h2 {
     display: inline-block;
-    width: 100%;
+    width: 100%
 }
 
 .credit {
     display: block;
     width: 70%;
     font-size: 16px;
-    color: #A13333;
+    color: #a13333
 }
 
 p {
     padding-top: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 6px
 }
 
 img {
     display: flex;
-    width: 25%;
+    width: 25%
 }
 
 aside {
@@ -88,26 +93,30 @@ aside {
     padding-right: 25px;
     margin-left: 10px;
     flex-direction: column;
-    color: #F3EFE0;
-    background-color: rgb(60, 60, 60);
+    color: #f3efe0;
+    background-color: #3c3c3c
 }
 
-@media only screen and (max-width: 600px) {
+.content-aside {
+    padding-left: 4px;
+}
+
+@media only screen and (max-width:600px) {
     .aside-container {
-        visibility: hidden;
+        visibility: hidden
     }
 
     main {
         width: 100%;
-        padding-left: 11%;
+        padding-left: 13%
     }
 
     img {
-        visibility: hidden;
+        visibility: hidden
     }
 
     article {
-        width: 100%;
+        width: 98%
     }
 }
 
@@ -116,13 +125,13 @@ footer {
     padding-top: 5px;
     text-align: center;
     align-items: center;
-    background-color: rgb(12, 12, 1);
+    background-color: #0c0c01
 }
 
 footer p {
-    color: grey;
+    color: grey
 }
 
 footer i {
-    font-size: 49px;
+    font-size: 49px
 }
