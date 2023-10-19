@@ -57,7 +57,7 @@ section {
 
 article {
     display: flex;
-
+    line-height: 1.2;
     flex-direction: column;
     padding-bottom: 10px;
 }
@@ -103,7 +103,10 @@ h2 {
 }
 
 aside {
-    width: 15%;
+    display: flex;
+    flex-direction: column;
+    width: 6%;
+    height: 30%;
     padding: 10px;
     background-color: #3c3c3c;
     margin-left: 10px;
@@ -118,7 +121,7 @@ aside a {
 @media only screen and (max-width:600px) {
     main {
         width: 100%;
-        padding-left: 11%
+        padding-left: 6%
     }
 
     aside {
