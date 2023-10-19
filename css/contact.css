@@ -40,31 +40,33 @@ body {
 main {
     display: flex;
     width: 66%;
-    margin-top: 1px;
     justify-content: center;
+    margin-top: 1px;
     margin-left: auto;
     margin-right: auto
 }
 
 section {
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: center;
     background-color: #3f3f3f;
     flex-direction: column;
-    padding-bottom: 10px
+    padding: 10px
 }
 
 article {
     display: flex;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .form {
     display: flex;
+    margin: 10px;
     justify-content: center;
-    width: 90%
+    width: 90%;
 }
 
 .form form {
@@ -72,7 +74,8 @@ article {
     display: flex;
     width: 50%;
     flex-direction: column;
-    border: none
+    border: none;
+    border-radius: 13%;
 }
 
 .form * {
@@ -96,15 +99,25 @@ article {
 }
 
 aside {
-    display: flex;
-    flex-wrap: wrap;
-    width: 20%;
-    height: 10%;
-    padding-right: 25px;
+    width: 15%;
+    padding: 10px;
+    background-color: #3c3c3c;
     margin-left: 10px;
-    flex-direction: column;
-    color: #f3efe0;
-    background-color: #3c3c3c
+}
+
+@media only screen and (max-width:600px) {
+    main {
+        width: 100%;
+        padding-left: 11%
+    }
+
+    aside {
+        visibility: hidden;
+    }
+
+    article {
+        width: 98%
+    }
 }
 
 footer {

@@ -57,14 +57,14 @@ section {
     flex-direction: column;
     align-items: center;
     background-color: #3f3f3f;
-    padding-bottom: 10px
+    padding: 10px
 }
 
 article {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding-left: 4px;
+    width: 100%;
+
     padding-bottom: 10px
 }
 
@@ -79,6 +79,8 @@ li {
 
 aside {
     display: flex;
+    width: 50%;
+    height: 10%;
     flex-wrap: wrap;
     margin-left: 10px;
     color: #f3efe0;
@@ -86,7 +88,7 @@ aside {
 }
 
 aside img {
-    object-fit: fill
+    object-fit: cover;
 }
 
 @media only screen and (max-width:600px) {

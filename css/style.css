@@ -49,7 +49,7 @@ section {
     display: flex;
     background-color: #3f3f3f;
     flex-direction: column;
-    padding-bottom: 10px
+    padding: 10px
 }
 
 article {
@@ -71,20 +71,24 @@ article {
     display: block;
     width: 70%;
     font-size: 16px;
-    color: #a13333
+    color: #f95959;
 }
 
 p {
     padding-top: 6px;
-    padding-bottom: 6px
 }
 
-img {
+aside {
     display: flex;
-    width: 25%
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 10%;
+    padding-right: 25px;
+    margin-left: 10px;
+    color: #f3efe0;
+    background-color: #3c3c3c
 }
-
-
 
 .content-aside {
     padding-left: 4px;
