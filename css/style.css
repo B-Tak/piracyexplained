@@ -84,17 +84,7 @@ img {
     width: 25%
 }
 
-aside {
-    display: flex;
-    flex-wrap: wrap;
-    width: 20%;
-    height: 10%;
-    padding-right: 25px;
-    margin-left: 10px;
-    flex-direction: column;
-    color: #f3efe0;
-    background-color: #3c3c3c
-}
+
 
 .content-aside {
     padding-left: 4px;

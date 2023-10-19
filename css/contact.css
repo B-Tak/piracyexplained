@@ -8,7 +8,7 @@
 
 header {
     text-align: center;
-    background-color: black;
+    background-color: #000;
     color: #fff;
     width: 100%
 }
@@ -16,7 +16,7 @@ header {
 nav {
     text-align: center;
     font-size: larger;
-    background-color: black;
+    background-color: #000;
     padding-bottom: 5px
 }
 
@@ -41,76 +41,79 @@ main {
     display: flex;
     width: 66%;
     margin-top: 1px;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto
 }
 
-nav {
-    text-align: center;
-    font-size: larger;
-    background-color: black;
-    padding-bottom: 5px;
-
-}
-
-.link {
-    margin: 1px;
-    border-bottom: 3px solid white;
-    color: white;
-}
-
-.link:hover {
-    background-color: white;
-    border-radius: 8%;
-    color: black;
-}
-
-body {
-    background-color: rgb(32, 32, 32);
-    color: white;
-}
-
-main {
-    display: flex;
-    width: 66%;
-    margin-top: 1px;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 section {
     display: flex;
-    width: 40%;
+    width: 70%;
     justify-content: center;
-    background-color: rgb(63, 63, 63);
+    background-color: #3f3f3f;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 article {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column
 }
 
-form {
+.form {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    width: 90%
+}
 
+.form form {
+    align-items: center;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    border: none
+}
+
+.form * {
+    width: 80%;
+    border: none;
+    color: #fff;
+    background-color: #3f3f3f;
+    outline: 0;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #fff
+}
+
+.form input[type=submit] {
+    background-color: #a13333;
+    border: none
+}
+
+.form textarea {
+    resize: none;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 10%;
+    padding-right: 25px;
+    margin-left: 10px;
+    flex-direction: column;
+    color: #f3efe0;
+    background-color: #3c3c3c
 }
 
 footer {
     width: 100%;
     text-align: center;
     align-items: center;
-    background-color: black;
+    background-color: #000
 }
 
 footer p {
-    color: grey;
-}
-
-footer i {
-    font-size: 49px;
+    color: grey
 }
