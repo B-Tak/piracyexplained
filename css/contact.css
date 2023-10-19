@@ -48,8 +48,7 @@ main {
 
 section {
     display: flex;
-    width: 60%;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: #3f3f3f;
     flex-direction: column;
     padding: 10px
@@ -61,7 +60,9 @@ article {
     flex-direction: column;
     padding-bottom: 10px;
 }
-
+#highlight {
+    text-align: center;
+}
 h2 {
     text-align: center;
 }
@@ -70,7 +71,7 @@ h2 {
     display: flex;
     margin: 10px;
     justify-content: center;
-    width: 90%;
+    width: 100%;
 }
 
 .form form {
@@ -105,7 +106,8 @@ h2 {
 aside {
     display: flex;
     flex-direction: column;
-    width: 6%;
+    align-items: center;
+    width: fit-content;
     height: 30%;
     padding: 10px;
     background-color: #3c3c3c;
