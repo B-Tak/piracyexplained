@@ -57,9 +57,13 @@ section {
 
 article {
     display: flex;
-    align-items: center;
+
     flex-direction: column;
     padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .form {
@@ -103,6 +107,12 @@ aside {
     padding: 10px;
     background-color: #3c3c3c;
     margin-left: 10px;
+}
+
+aside a {
+    color: white;
+    padding-left: 5px;
+    font-size: 36px !important;
 }
 
 @media only screen and (max-width:600px) {
