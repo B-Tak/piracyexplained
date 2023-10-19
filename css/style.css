@@ -53,12 +53,10 @@ section {
 }
 
 article {
+    align-items: center;
     border-bottom: 1px #fff solid;
     color: #f3efe0;
-    padding-bottom: 5px
-}
-
-article {
+    padding-bottom: 5px;
     padding-left: 4px;
     padding-right: 4px;
     overflow-wrap: normal;
@@ -90,6 +88,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     width: 20%;
+    height: 10%;
     padding-right: 25px;
     margin-left: 10px;
     flex-direction: column;
